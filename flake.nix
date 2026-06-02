@@ -16,10 +16,13 @@
       firmware = zmk-nix.legacyPackages.${system}.buildSplitKeyboard {
         name = "firmware";
 
-        src = nixpkgs.lib.sourceFilesBySuffices self [ ".board" ".cmake" ".conf" ".defconfig" ".dts" ".dtsi" ".json" ".keymap" ".overlay" ".shield" ".yml" "_defconfig" ];
+        src = nixpkgs.lib.sourceFilesBySuffices self [ ".board" ".cmake" ".conf" ".defconfig" ".dts" ".dtsi" ".json" ".keymap" ".overlay" ".shield" ".yml" "Kconfig.defconfig" "Kconfig.shield" "_defconfig" ];
 
         board = "nice_nano_v2";
-        shield = "lily58_%PART%";
+        shield = "Corne_%PART%";
+        parts = [ "L" "R" ];
+        centralPart = "L";
+        enableZmkStudio = true;
 
         zephyrDepsHash = "sha256-F03oJNHWmHlpFc1JHyvqX02WL+Pg6ZcNWpCaiDfJANA=";
 
