@@ -4,3 +4,4 @@
 /zmk
 /build
 /result
+*.uf2
