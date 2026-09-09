@@ -1,6 +1,6 @@
 {
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
+    nixpkgs.url = "https://channels.nixos.org/nixos-unstable/nixexprs.tar.zst";
     zmk-nix = {
       url = "github:lilyinstarlight/zmk-nix";
       inputs.nixpkgs.follows = "nixpkgs";

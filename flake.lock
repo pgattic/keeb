@@ -2,18 +2,15 @@
   "nodes": {
     "nixpkgs": {
       "locked": {
-        "lastModified": 1780336545,
-        "narHash": "sha256-vhVhuXzFrIOfcssC/9hDHx7MHzDKjF3keHuREOQqQiQ=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "4df1b885d76a54e1aa1a318f8d16fd6005b6401f",
-        "type": "github"
+        "lastModified": 1788881743,
+        "narHash": "sha256-151taSq/21cxagiIu7hyMVl68+FbHfwBP4lh6TB6KOM=",
+        "rev": "d6524aaca2ff07876657ae2b323f24be4874944b",
+        "type": "tarball",
+        "url": "https://releases.nixos.org/nixos/unstable/nixos-26.11pre1069856.d6524aaca2ff/nixexprs.tar.zst"
       },
       "original": {
-        "owner": "NixOS",
-        "ref": "nixpkgs-unstable",
-        "repo": "nixpkgs",
-        "type": "github"
+        "type": "tarball",
+        "url": "https://channels.nixos.org/nixos-unstable/nixexprs.tar.zst"
       }
     },
     "root": {
@@ -29,11 +26,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1780190665,
-        "narHash": "sha256-qjX/sj0d8rYXAoXrL5Wj9APeO/yPIYL3r0+WmsZ4x6g=",
+        "lastModified": 1788656650,
+        "narHash": "sha256-d135HqZ0WXLEjq9N6LwO4dFkc7AgiyjQua3grax+vE4=",
         "owner": "lilyinstarlight",
         "repo": "zmk-nix",
-        "rev": "0e4a429a56dfc7f1cd8a354373e0bd22b5098276",
+        "rev": "41046da1963a5e0ade05b7de2682bbebaa782e90",
         "type": "github"
       },
       "original": {
